@@ -1,0 +1,587 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    height: 40px;
+    background-color: black;
+    color: #dedede;
+    width:100%;
+}
+.flex {
+    display: flex;
+    justify-content:space-between;
+    height: 100%;
+    align-items: center;
+}
+.contain {
+    width: 1050px;
+    margin: auto;
+}
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+}
+.navigation {
+    width: 23%;
+    margin-right: 85px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+ul,a {
+    list-style-type: none;
+    color: #d3d3d3;
+}
+h1 {
+    margin-left: 70px;
+    font-size: 0.8rem;
+}
+.mint {
+    color:#27c7ab;
+}
+.navigation__item {
+    position: relative;
+}
+.header__list-item {
+    position: relative;
+
+}
+.romb {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    left: 25px;
+    top: 30px;
+    background-color: black;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: max-height 1s, opacity 2s;
+}
+.submenu {
+    text-align: left;
+    position: absolute;
+    left: -15px;
+    top: 35px;
+    display: flex;
+    background-color: black;
+    height: 80px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
+    padding: 9px;
+    opacity: 0;
+    transition: max-height 1s, opacity 2s;
+}
+.navigation__list:first-child:first-child:hover .submenu {
+    opacity: 1;
+
+}
+.navigation__list:first-child:first-child:hover .romb {
+    opacity: 1;
+
+}
+/*sekcja z fotelem i opisem---------------------------------------------------------*/
+.backgroundGradient {
+    background: rgb(199,197,197);
+    background: linear-gradient(0deg, rgba(199,197,197,1) 0%, rgba(215,217,218,1) 29%, rgba(255,255,255,1) 100%);
+    height: 500px;
+    width: 100%;
+}
+.fotelbox {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.arrow a {
+    list-style-type: none;
+    color:#27c7ab ;
+    font-size: 4.5rem;
+}
+.blackChair {
+    background-image: url("../images/black_chair.png");
+    width: 45%;
+    background-repeat:no-repeat;
+    height: 80%;
+    background-size:cover;
+    background-position: center;
+}
+.bigFotelOpis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.bigFotelOpis a {
+    color: #efefef;
+    background-color: #27c7ab;
+    padding: 15px 55px;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+.bigFotelOpis p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+.bigFotelOpis h2 {
+    font-size: 2.6rem;
+}
+/*sekcja ze zdjęciami foteli-------------------------------------------------------*/
+.backgroundSection2 {
+    background: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.fotels3 {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.photo1 {
+    background-image: url("../images/box1_img.jpg");
+    width: 31%;
+    background-repeat:no-repeat;
+    height: 75%;
+    background-size:contain;
+    position: relative;
+    color: #3a0000;
+}
+.opacity {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.5); ;
+    bottom: 22%;
+    padding: 3%;
+}
+.photo2 {
+    background-image: url("../images/box2_img.jpg");
+    background-repeat:no-repeat;
+    width: 31%;
+    height: 75%;
+    background-size:contain;
+    position: relative;
+    color: #3a0000;
+}
+.photo3 {
+    width: 31%;
+    height: 75%;
+    border: solid 1px #E4E4E4;
+    padding: 20px;
+}
+.veryshortGreenLine{
+    width: 160px;
+    height: 9px;
+    background-color:#27c7ab ;
+    margin-top: 4px;
+}
+.photo3 p{
+    padding-top: 10px;
+    color: #888888;
+}
+
+/*sekcja z cennikiem------------------------------------------------------------*/
+.titleprice {
+    display: flex;
+    flex-direction: column;
+    color: #6E6E6E;
+}
+.shortGreentLine{
+    width: 320px;
+    height: 9px;
+    background-color:#27c7ab ;
+    margin-top: 10px;
+}
+.backgroundSection3 {
+    background: #f1f1f1;
+    height: 800px;
+    width: 100%;
+}
+.prices {
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.allzakladki {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.allzakladki h2 {
+    color:#27c7ab ;
+}
+.zakladka-container {
+    width: 328px;
+    text-align: center;
+    font-size: 21px;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+.zakladka-box {
+    border: 2px solid #cecece;
+    font-size: 0.7em;
+    height: 500px;
+    background-color: #F9F9F9;
+    width: 100%;
+}
+.zakladka-content {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.zakladka-box h2 {
+    font-size: 1.5em;
+}
+.zakladka-box p {
+    margin-bottom: 3em;
+}
+.zakladka-box a {
+    color: #FFF;
+    background-color: #27c7ab;
+    padding: 10px 36px ;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+div.zakladka-kropka-cena {
+    border-radius: 50%;
+    border: #C2C2C2 solid 2px;
+    background-color: white;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div.zakladka-kropka-cena p{
+    text-align: center;
+    margin:0 auto;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #C1C1C1;
+}
+span.kwota {
+    font-size: 3rem;
+}
+.superscript {
+    vertical-align: top;
+    font-size: 1rem;
+}
+
+.tabela-uslugi {
+    border-spacing:0;
+    height: 160px;
+}
+.tabela-uslugi tr{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabela-uslugi tr:nth-child(2n){
+    background-color:#E4E4E4;
+    color:#808080;
+}
+.tabela-uslugi tr:nth-child(2n+1){
+    background-color:#F1F1F1;
+    color: #a8a8a8;
+}
+.tabela-uslugi {
+    width: 100%;
+}
+
+.zakladka-box .zakladka-kropka {
+    border-radius: 50%;
+    border: 3px solid #C2C2C2;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: calc(50% - 30px);
+    top: -30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.zakladka-box .zakladka-kropka-mini {
+    border-radius: 50%;
+    background-color: #C2C2C2;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: calc(50% - 12.5px);
+    top: -12.5px;
+    box-sizing: border-box;
+}
+
+.zakladka-container:hover div {
+    background-color: #27c7ab;
+}
+.zakladka-container:hover h2 {
+    color: #fff;
+}
+.zakladka-container:hover a {
+    color: #27c7ab;
+    background-color: #fff;
+}
+.zakladka-container:hover .zakladka-kropka-mini {
+    color: #27c7ab;
+    background-color: #fff;
+}
+.zakladka-container:hover .zakladka-kropka {
+    border: none;
+}
+.zakladka-container:hover .zakladka-kropka-cena {
+    border: none;
+    background-color:#fff;
+}
+.zakladka-container:hover .tabela-uslugi tr:nth-child(2n){
+    background-color:#F1F1F1;
+    color: #9c9c9c;
+}
+.zakladka-container:hover .tabela-uslugi tr:nth-child(2n+1){
+    background-color:#fff;
+    color: #b2b2b2;
+}
+.zakladka-container:hover .zakladka-box{
+    border: none;
+}
+.zakladka-container:hover div.zakladka-kropka-cena p{
+    color: #27c7ab;
+}
+
+
+/*sekcja z formularzem------------------------------------------------------------*/
+.backgroundSection4 {
+    background: white;
+    height: 450px;
+    width: 100%;
+}
+.form {
+    height: 100%;
+}
+.form__title {
+    padding-top: 3%;
+    color: #4a4a4a;
+    font-size: 1.1rem;
+}
+.redFotelSend {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+.send__button__container{
+    border-radius: 10px;
+    height: 20%;
+    width: 100%;
+    background-color:#27c7ab;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form__and__button {
+    display:flex;
+    justify-content:space-between;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.form__contact {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 60%;
+}
+.form__contact textarea {
+    resize: none;
+}
+
+.mint__border {
+    border: 1px solid #29ddc1;
+    width: 100%;
+    height:17%;
+}
+.mint__border__textarea {
+    border: 1px solid #29ddc1;
+    width: 100%;
+    height:47%;
+}
+.send__button__part {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+    align-items: center;
+}
+.redFotelTick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redFotelImage {
+    background-image: url("../images/red_chair.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+    background-size: contain;
+    background-position: center;
+}
+.agree__to__terms {
+    color: #cbcbcb;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkbox__mint {
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+::placeholder {
+    color: #d9d9d9;
+    opacity: 1;
+    font-size: 2rem;
+    padding: 2%;
+
+}
+
+/*Zabawa ze stylowaniem checkboxa------------------------------------------*/
+
+.regular-checkbox {
+    display: none;
+}
+.regular-checkbox + span.checkbox__mint {
+    background-color: #fafafa;
+    border: 1px solid #29ddc1;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 19px;
+    border-radius: 3px;
+    position: relative;
+}
+.agree__or__dont {
+    width: 85%;
+}
+.regular-checkbox + span.checkbox__mint:active, .regular-checkbox:checked + span.checkbox__mint:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + span.checkbox__mint {
+    background-color: #ffffff;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+
+.regular-checkbox:checked + span.checkbox__mint:after {
+    content: '\2714';
+    font-size: 2.2rem;
+    position: absolute;
+    top: -7px;
+    left: 5px;
+    color: #29ddc1;
+}
+
+
+/*sekcja stopka------------------------------------------------------------*/
+.backgroundfooter {
+    background: white;
+    height: 150px;
+    width: 100%;
+    padding-top: 5%;
+}
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: grey;
+}
+.facebook {
+    display: flex;
+    justify-content:space-between;
+    width: 380px;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+}
+.socialMedia {
+    height: 100px;
+    width: 160px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.copyright {
+    font-size: 0.8rem;
+    letter-spacing: 0.15rem;
+}
+.flickr {
+    background-image: url(../images/flickr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.vimeo {
+    background-image: url(../images/vimeo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.pinterest {
+    background-image: url(../images/pinterest.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.twitter {
+    background-image: url(../images/twitter.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+.bold {
+    font-weight: 700;
+}
