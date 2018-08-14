@@ -3,7 +3,7 @@
 
 # Opis
 
-Projekt przedstawia projekt prostej strony, której mogłaby użyc mała firmy do oferowania swoich produktów i usług dodatkowych. 
+Projekt przedstawia  prostą stronę, która mogłaby być użyta w małej firmie do oferowania produktów wraz z usługami dodadatkowymi. 
 
 ####
 
