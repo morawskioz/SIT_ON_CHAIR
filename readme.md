@@ -7,7 +7,7 @@ Projekt przedstawia projekt prostej strony, której mogłaby użyc mała firmy d
 
 ####
 
-Link do strony:
+Link do strony: [Sit On Chair](https://morawskioz.github.io/SIT_ON_CHAIR/)
  
 ### Wersja 1
 Zastosowałem proste narzędzia CSS, aby usyzkać podstawową interaktywność w postaci podświetlnych elementów,
