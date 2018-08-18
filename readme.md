@@ -21,4 +21,7 @@ Podmieniłem również skrypt JS w miejsce CSS aby otrzymać rozwijalne submenu.
 Dodałem rónież w JS efekt chowania się elemntu z podpisem po najechaniu na małe zdjęcia krzeseł w środkowej sekcji.
 
 
+### Wersja 3
+Dodany został kalkulator, który dynamicznie oblicza dzięki JavaScript sume potencjalnego zamówienia przez wypełnienie
+prostego formularza.
 

@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header>  <!--nagłówek strony, czarny pasek z logo i menu-->
+<header class="black__background">  <!--nagłówek strony, czarny pasek z logo i menu-->
 
     <div class="contain flex">
         <div class="logo">
@@ -197,6 +197,95 @@
         </div>
     </div>
 </section>
+
+<section class="application ">
+    <div class="main_width">
+        <section class="choice_part inline">
+            <header>
+                <h3>SKOMPONUJ SWOJE KRZESŁO</h3>
+                <span class="green_bell"></span>
+            </header>
+
+            <div class="form">
+                <div class="drop_down_list">
+                    <span class="list_arrow"></span>
+
+                    <select name="chair__type" size="3" id="chair__type" class="list_panel">
+                        <option value="" >-----</option>
+                        <option value="Clair" >Clair</option>
+                        <option value="Margarita">Margarita</option>
+                        <option value="Selena">Selena</option>
+                    </select>
+
+                    <label for="chair__type">Wybierz rodzaj</label>
+
+
+                </div>
+
+                <div class="drop_down_list">
+                    <span class="list_arrow"></span>
+
+                    <select name="chair__color" size="3" id="chair__color" class="list_panel">
+                        <option value="" >-----</option>
+                        <option value="Czerwony">Czerwony</option>
+                        <option value="Czarny">Czarny</option>
+                        <option value="Pomarańczowy">Pomarańczowy</option>
+                    </select>
+                    <label for="chair__color"> Wybierz kolor </label>
+                </div>
+
+
+                <div class="drop_down_list">
+                    <span class="list_arrow"></span>
+
+                    <select name="chair__material" size="3" id="chair__material" class="list_panel">
+                        <option value="" >-----</option>
+                        <option value="Tkanina">Tkanina</option>
+                        <option value="Skóra">Skóra</option>
+                    </select>
+                    <label for="chair__material"> Wybierz materiał </label>
+                </div>
+
+                <div class="checkbox check-box">
+                    <input type="checkbox" id="transport" data-transport-price="200">
+                    <label for="transport">Transport</label>
+                </div>
+                <!--<div class="checkbox"></div>-->
+                <!--<span class="list_label inline_text">Transport</span>-->
+            </div>
+        </section>
+
+        <section class="image_part inline flex__photo__center">
+            <img src="images/szary__fotel.png">
+        </section>
+
+        <section class="summary_part inline">
+            <header class="align_right">
+                <h3>PODSUMOWANIE</h3>
+                <span class="green_bell"></span>
+            </header>
+
+            <div class="summary_panel">
+                <div class="panel_left">
+                    <h4 class="title">Twój fotel</h4>
+                    <span class="color"></span>
+                    <span class="pattern"></span>
+                    <span class="transport"></span>
+                </div>
+                <div class="panel_right">
+                    <h4 class="title value"></h4>
+                    <span class="color value"></span>
+                    <span class="pattern value"></span>
+                    <span class="transport value"></span>
+                </div>
+                <div class="sum_label">SUMA</div>
+                <div class="sum"><strong></strong></div>
+            </div>
+            <a href="" class="green_button">Zamawiam</a>
+        </section>
+    </div>
+</section> <!-- Sekcja z kalkulatorem------------------------------------------>
+
 <section> <!--//- sekcja z formularzem-->
 
     <div class="backgroundSection4">
