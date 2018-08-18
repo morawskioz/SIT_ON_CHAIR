@@ -22,6 +22,6 @@ Dodałem rónież w JS efekt chowania się elemntu z podpisem po najechaniu na m
 
 
 ### Wersja 3
-Dodany został kalkulator, który dynamicznie oblicza dzięki JavaScript sume potencjalnego zamówienia przez wypełnienie
+Dodany został kalkulator, który dzięki JavaScript, dynamicznie oblicza  sume potencjalnego zamówienia przez wypełnienie
 prostego formularza.
 
