@@ -40,7 +40,8 @@ var full__list = document.querySelector("ul.slider");
 
 full__list.children[which__picture].classList = "visible";
 
-next__button.addEventListener("click", function () {
+next__button.addEventListener("click", function (e) {
+    e.preventDefault();
     full__list.children[which__picture].classList.remove("visible");
     which__picture++;
     if (which__picture > full__list.children.length-1){
@@ -51,7 +52,8 @@ next__button.addEventListener("click", function () {
 
 });
 
-prev__button.addEventListener("click", function () {
+prev__button.addEventListener("click", function (e) {
+    e.preventDefault();
     full__list.children[which__picture].classList.remove("visible");
     which__picture--;
     if (which__picture < 0){
